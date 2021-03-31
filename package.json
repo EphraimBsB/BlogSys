@@ -1,0 +1,28 @@
+{
+  "name": "blogsys",
+  "version": "1.0.0",
+  "description": "Blog System App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seq": "sequelize",
+    "dev": "nodemon app/system/server.js",
+    "db:migrate": "sequelize db:migrate"
+  },
+  "author": "Ephraim",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "joi": "^17.4.0",
+    "mysql2": "^2.2.5",
+    "prettier": "^2.2.1",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
